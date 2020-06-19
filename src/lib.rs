@@ -99,7 +99,7 @@ pub fn webview_run(w: *mut Webview) {
 }
 
 pub fn webview_destroy(w: *mut Webview) {
-    unsafe { ffi::webview_destroy(w) }
+    unsafe { ffi::webview_destroy(w) } 
 }
 
 pub fn webview_get_window(w: *mut Webview) -> *mut Window {
